@@ -54,3 +54,9 @@ img{
     font-size: 3rem;
     text-align: center;
 }
+#restart{
+    background-color: #003554;
+    padding: 10px;
+    text-align: center;
+    color: #00a6fb;
+}

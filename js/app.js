@@ -50,3 +50,10 @@ choices.forEach((choice)=>{
     });
 
 });
+function restartGame(){
+    userScore = 0;
+    compScore = 0;
+    document.getElementById('user-score').innerHTML = userScore;
+    document.getElementById('computer-score').innerHTML = compScore;
+    document.getElementById('message').innerHTML = 'Result will be shown here';
+};
